@@ -1,0 +1,72 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "https://sap.example.com/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrder('4500000001')",
+          "type": "API_PURCHASEORDER_PROCESS_SRV.A_PurchaseOrderType",
+          "uri": "A_PurchaseOrder('4500000001')"
+        },
+        "PurchaseOrder": "4500000001",
+        "PurchaseOrderType": "NB",
+        "Supplier": "VENDOR001",
+        "CompanyCode": "1000",
+        "PurchasingOrganization": "1000",
+        "PurchasingGroup": "001",
+        "DocumentCurrency": "USD",
+        "ExchangeRate": "1.00000",
+        "CreationDate": "/Date(1705276800000)/",
+        "PurchaseOrderDate": "/Date(1705276800000)/",
+        "TotalNetAmount": "15000.00",
+        "PaymentTerms": "NT30",
+        "IncotermsClassification": "CIF",
+        "IncotermsLocation1": "New York",
+        "to_PurchaseOrderItem": { "__deferred": { "uri": "A_PurchaseOrder('4500000001')/to_PurchaseOrderItem" } }
+      },
+      {
+        "__metadata": {
+          "id": "https://sap.example.com/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrder('4500000002')",
+          "type": "API_PURCHASEORDER_PROCESS_SRV.A_PurchaseOrderType",
+          "uri": "A_PurchaseOrder('4500000002')"
+        },
+        "PurchaseOrder": "4500000002",
+        "PurchaseOrderType": "NB",
+        "Supplier": "VENDOR002",
+        "CompanyCode": "1000",
+        "PurchasingOrganization": "1000",
+        "PurchasingGroup": "002",
+        "DocumentCurrency": "EUR",
+        "ExchangeRate": "1.08000",
+        "CreationDate": "/Date(1705363200000)/",
+        "PurchaseOrderDate": "/Date(1705363200000)/",
+        "TotalNetAmount": "8500.00",
+        "PaymentTerms": "NT30",
+        "IncotermsClassification": "FOB",
+        "IncotermsLocation1": "Frankfurt",
+        "to_PurchaseOrderItem": { "__deferred": { "uri": "A_PurchaseOrder('4500000002')/to_PurchaseOrderItem" } }
+      },
+      {
+        "__metadata": {
+          "id": "https://sap.example.com/sap/opu/odata/sap/API_PURCHASEORDER_PROCESS_SRV/A_PurchaseOrder('4500000003')",
+          "type": "API_PURCHASEORDER_PROCESS_SRV.A_PurchaseOrderType",
+          "uri": "A_PurchaseOrder('4500000003')"
+        },
+        "PurchaseOrder": "4500000003",
+        "PurchaseOrderType": "NB",
+        "Supplier": "VENDOR001",
+        "CompanyCode": "2000",
+        "PurchasingOrganization": "2000",
+        "PurchasingGroup": "001",
+        "DocumentCurrency": "USD",
+        "ExchangeRate": "1.00000",
+        "CreationDate": "/Date(1705449600000)/",
+        "PurchaseOrderDate": "/Date(1705449600000)/",
+        "TotalNetAmount": "32000.00",
+        "PaymentTerms": "NT60",
+        "IncotermsClassification": "CIF",
+        "IncotermsLocation1": "Chicago",
+        "to_PurchaseOrderItem": { "__deferred": { "uri": "A_PurchaseOrder('4500000003')/to_PurchaseOrderItem" } }
+      }
+    ]
+  }
+}

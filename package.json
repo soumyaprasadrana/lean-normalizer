@@ -1,0 +1,98 @@
+{
+  "name": "@soumyaprasadrana/lean-normalizer",
+  "version": "1.0.0",
+  "description": "LEAN — Lossless Enterprise API Normalization. A vendor-agnostic encoding engine that converts large JSON API responses (Maximo, ServiceNow, SAP) into a compact, lossless, deterministic wire format optimized for LLM context windows and MCP tool pipelines.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "lean-maximo": "./bin/lean-maximo.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "build:watch": "tsc --project tsconfig.json --watch",
+    "prebuild": "node -e \"const fs=require('fs'); fs.rmSync('dist',{recursive:true,force:true});\"",
+    "pretest": "npm run build",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch",
+    "lint": "tsc --noEmit",
+    "run:maximo": "node bin/lean-maximo.js",
+    "prepublishOnly": "npm run lint && npm run build && npm test"
+  },
+  "keywords": [
+    "lean",
+    "lean-normalizer",
+    "cots",
+    "lossless",
+    "normalization",
+    "enterprise-api",
+    "token-reduction",
+    "token-optimization",
+    "context-window",
+    "llm",
+    "llm-tools",
+    "mcp",
+    "mcp-tools",
+    "model-context-protocol",
+    "ai-tools",
+    "agentic",
+    "agent-tools",
+    "ibm-maximo",
+    "maximo",
+    "servicenow",
+    "sap",
+    "odata",
+    "oslc",
+    "enterprise",
+    "json-encoding",
+    "wire-format",
+    "dictionary-compression",
+    "schema-compression",
+    "api-normalization",
+    "typescript"
+  ],
+  "author": {
+    "name": "Soumya Prasad Rana",
+    "email": "somyaprasad.rana@gmail.com",
+    "url": "https://github.com/soumyaprasadrana"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/soumyaprasadrana/lean-normalizer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumyaprasadrana/lean-normalizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/soumyaprasadrana/lean-normalizer/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "roots": [
+      "<rootDir>/tests"
+    ],
+    "testMatch": [
+      "**/*.test.ts"
+    ],
+    "globals": {
+      "ts-jest": {
+        "tsconfig": "tsconfig.json"
+      }
+    }
+  }
+}

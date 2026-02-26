@@ -1,0 +1,20 @@
+# Source — consumers use dist/ only
+src/
+tests/
+bin/lean-maximo.js
+lean-maximo.js
+
+# Config / tooling
+tsconfig.json
+jest.config.*
+.eslintrc*
+.prettierrc*
+*.log
+
+# CI
+.github/
+
+# Dev artifacts
+node_modules/
+coverage/
+*.tsbuildinfo
