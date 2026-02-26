@@ -1,0 +1,95 @@
+{
+  "member": [
+    {
+      "owner": "PRIYA.N",
+      "status_description": "Queued",
+      "slarecords_collectionref": "api/os/mxapiincident/_VElDS0VULzEwMDE3MQ--/slarecords",
+      "labtrans_collectionref": "api/os/mxapiincident/_VElDS0VULzEwMDE3MQ--/labtrans",
+      "ticketuid": 428,
+      "changeby": "PRIYA.N",
+      "reportdate": "2025-12-06T11:29:03-08:00",
+      "class_description": "Service Request",
+      "changedate": "2026-01-29T08:45:34-08:00",
+      "ownergroup": "PLANTOPS",
+      "statusdate": "2026-01-29T08:40:58-08:00",
+      "_rowstamp": "26228729",
+      "accumulatedholdtime": 0,
+      "createdby": "MAXUSER1",
+      "ticketprop_collectionref": "api/os/mxapiincident/_VElDS0VULzEwMDE3MQ--/ticketprop",
+      "relatedrecord_collectionref": "api/os/mxapiincident/_VElDS0VULzEwMDE3MQ--/relatedrecord",
+      "href": "api/os/mxapiincident/_VElDS0VULzEwMDE3MQ--",
+      "class": "SR",
+      "origfromalert": false,
+      "doclinks": {
+        "href": "api/os/mxapiincident/_VElDS0VULzEwMDE3MQ--/doclinks",
+        "member": []
+      },
+      "ticketid": 100171,
+      "status": "QUEUED"
+    },
+    {
+      "owner": "PRIYA.N",
+      "status_description": "In Progress",
+      "slarecords_collectionref": "api/os/mxapiincident/_VElDS0VULzEwMDE3Mw--/slarecords",
+      "description_longdescription": "Cooling Tower CT-04 has been in vibration alarm state since 2026-01-23. Site operator reported repeated trips during shift handover and requested urgent reliability review.",
+      "labtrans_collectionref": "api/os/mxapiincident/_VElDS0VULzEwMDE3Mw--/labtrans",
+      "ticketuid": 431,
+      "changeby": "PRIYA.N",
+      "reportdate": "2025-12-06T21:09:13-08:00",
+      "class_description": "Service Request",
+      "description": "High Priority: Cooling Tower Vibration Alarm Not Acknowledged",
+      "changedate": "2026-01-29T17:20:33-08:00",
+      "ownergroup": "PLANTOPS",
+      "statusdate": "2026-01-29T17:20:31-08:00",
+      "_rowstamp": "26338737",
+      "accumulatedholdtime": 0,
+      "createdby": "MAXUSER1",
+      "ticketprop_collectionref": "api/os/mxapiincident/_VElDS0VULzEwMDE3Mw--/ticketprop",
+      "relatedrecord_collectionref": "api/os/mxapiincident/_VElDS0VULzEwMDE3Mw--/relatedrecord",
+      "href": "api/os/mxapiincident/_VElDS0VULzEwMDE3Mw--",
+      "class": "SR",
+      "origfromalert": false,
+      "doclinks": {
+        "href": "api/os/mxapiincident/_VElDS0VULzEwMDE3Mw--/doclinks",
+        "member": []
+      },
+      "ticketid": 100173,
+      "status": "INPROG"
+    },
+    {
+      "owner": "OMAR.K",
+      "status_description": "Resolved",
+      "slarecords_collectionref": "api/os/mxapiincident/_VElDS0VULzEwMDE4MA--/slarecords",
+      "description_longdescription": "Backup gateway for Plant-02 stopped sending health pings after routine patching. Network team restored routing and validated service recovery.",
+      "labtrans_collectionref": "api/os/mxapiincident/_VElDS0VULzEwMDE4MA--/labtrans",
+      "ticketuid": 442,
+      "changeby": "OMAR.K",
+      "reportdate": "2025-12-11T00:22:20-08:00",
+      "class_description": "Service Request",
+      "description": "Plant-02 Backup Gateway Health Check Failure",
+      "changedate": "2026-01-29T08:46:20-08:00",
+      "ownergroup": "NETOPS",
+      "statusdate": "2025-12-16T05:32:22-08:00",
+      "_rowstamp": "26228873",
+      "accumulatedholdtime": 0,
+      "createdby": "MAXUSER1",
+      "ticketprop_collectionref": "api/os/mxapiincident/_VElDS0VULzEwMDE4MA--/ticketprop",
+      "relatedrecord_collectionref": "api/os/mxapiincident/_VElDS0VULzEwMDE4MA--/relatedrecord",
+      "href": "api/os/mxapiincident/_VElDS0VULzEwMDE4MA--",
+      "class": "SR",
+      "origfromalert": false,
+      "doclinks": {
+        "href": "api/os/mxapiincident/_VElDS0VULzEwMDE4MA--/doclinks",
+        "member": []
+      },
+      "ticketid": 100180,
+      "status": "RESOLVED"
+    }
+  ],
+  "href": "api/os/MXAPIINCIDENT",
+  "responseInfo": {
+    "totalPages": 1,
+    "totalCount": 3,
+    "pagenum": 1
+  }
+}
